@@ -25,4 +25,7 @@
 2020 - 06 - 20
 
 1. jdbctemplate & jpa & springdatajpa 사용
-    
+
+2020 - 06 - 29     
+
+1. AOP 적용하여 system time 알아보기
