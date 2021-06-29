@@ -21,3 +21,8 @@
 
 1. h2 db server & jdbc 연동     
 2. 회원 관련 db 생성 및 연결    
+
+2020 - 06 - 20
+
+1. jdbctemplate & jpa & springdatajpa 사용
+    
