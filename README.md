@@ -43,4 +43,5 @@
 2. 순수 자바를 사용하여 domain & repository & service & test 구현.     
 3. order & discount 정책 설계 및 구현 => 단위테스트 생성.    
 4. code refactoring -> dip & ocp adapt.     
+5. spring container and spring bean -> test and impl
 
