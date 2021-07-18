@@ -45,3 +45,7 @@
 4. code refactoring -> dip & ocp adapt.     
 5. spring container and spring bean -> test and impl
 
+
+# JPA
+
+1. jpa 원리와 entitycontainer & entitymanager.     
