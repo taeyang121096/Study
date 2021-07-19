@@ -44,8 +44,11 @@
 3. order & discount 정책 설계 및 구현 => 단위테스트 생성.    
 4. code refactoring -> dip & ocp adapt.     
 5. spring container and spring bean -> test and impl
+6. spring singleton container -> make just one object
+7. spring component scan dif apply direct bean -> auto component scan
 
 
 # JPA
 
 1. jpa 원리와 entitycontainer & entitymanager.     
+2. jpa 영속성 관리 및 내부 동작 방식 & 엔티티 매핑
