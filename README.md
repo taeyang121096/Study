@@ -46,6 +46,7 @@
 5. spring container and spring bean -> test and impl
 6. spring singleton container -> make just one object
 7. spring component scan dif apply direct bean -> auto component scan
+8. spring Auto Di and Manual Di with annotation -> Auto Di
 
 
 # JPA
