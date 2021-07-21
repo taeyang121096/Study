@@ -53,3 +53,4 @@
 
 1. jpa 원리와 entitycontainer & entitymanager.     
 2. jpa 영속성 관리 및 내부 동작 방식 & 엔티티 매핑
+3. jpa 연관관계 매핑 & 양방향 단방향 매핑

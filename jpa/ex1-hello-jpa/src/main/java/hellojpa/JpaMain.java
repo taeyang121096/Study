@@ -15,11 +15,24 @@ public class JpaMain {
         tx.begin();
         //code
         try{
-//            Member findMember = em.find(Member.class, 1L);
-            List<Member> result = em.createQuery("select m from Member as m", Member.class).getResultList();
-            for (Member member : result) {
-                System.out.println("member.getName() = " + member.getName());
-            }
+            //비영속
+
+
+            Team team = new Team();
+            team.setName("TeamA");
+            em.persist(team);
+
+            Member member = new Member();
+            member.setUsername("member1");
+            member.changeTeam(team);
+            em.persist(member);
+
+
+            em.flush();
+            em.clear();
+
+            //영속
+
 
             tx.commit();
 
