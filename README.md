@@ -32,7 +32,7 @@
 
 
 
-# Shoping mall
+# Shoping mall (finish)
 
 1. 환경 설정 및 데이터 베이스 연동 -> 기능 기술서 작성 중
 2. 도메인 분석 설계 -> 모든 엔티티 클래스 개발         
@@ -40,8 +40,10 @@
 4. 상품 서비스 및 repositry 개발 -> 상품 수량 추가 감소 비지니스 로직 -> 도메인에 개발
 5. 주문 도메인 서비스 및 repository 개발
 6. 회원 가입 화면 및 controller 개발
+7. 회원 목록 화면 및 controller 개발
+8. 상품 수정 & 주문 검색 취소 controller 개발
 
-# 회원 주문 할인 서비스
+# 회원 주문 할인 서비스(finish)
 
 1. 서비스 도메인 설계 및 요구사항 작성.     
 2. 순수 자바를 사용하여 domain & repository & service & test 구현.     
@@ -52,6 +54,7 @@
 7. spring component scan dif apply direct bean -> auto component scan
 8. spring Auto Di and Manual Di with annotation -> Auto Di
 9. spring bean callback lifecycle -> @Postconstruct, @Predestory
+10. spring beanscope & prototype scope & web scope & Provider & Proxy study
 
 
 # JPA
