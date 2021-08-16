@@ -30,7 +30,7 @@
 
 1. AOP 적용하여 system time 알아보기
 
-
+------------------------
 
 # Shoping mall (finish)
 
@@ -42,6 +42,8 @@
 6. 회원 가입 화면 및 controller 개발
 7. 회원 목록 화면 및 controller 개발
 8. 상품 수정 & 주문 검색 취소 controller 개발
+9. 회원등록 api 개발
+------------------------
 
 # 회원 주문 할인 서비스(finish)
 
@@ -56,6 +58,7 @@
 9. spring bean callback lifecycle -> @Postconstruct, @Predestory
 10. spring beanscope & prototype scope & web scope & Provider & Proxy study
 
+------------------------
 
 # JPA
 
