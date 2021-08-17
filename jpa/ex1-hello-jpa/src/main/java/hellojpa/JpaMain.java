@@ -18,18 +18,6 @@ public class JpaMain {
             //비영속
 
 
-            Team team = new Team();
-            team.setName("TeamA");
-            em.persist(team);
-
-            Member member = new Member();
-            member.setUsername("member1");
-            member.changeTeam(team);
-            em.persist(member);
-
-
-            em.flush();
-            em.clear();
 
             //영속
 
