@@ -48,6 +48,7 @@
 
 1. 회원등록 api 개발
 2. 회원 조회 api 개발 회원 수정 api 개발
+3. 회원 샘플 데이터 입력
 
 ------------------------
 
@@ -72,3 +73,12 @@
 2. jpa 영속성 관리 및 내부 동작 방식 & 엔티티 매핑
 3. jpa 연관관계 매핑 & 양방향 단방향 매핑
 4. jpa 연관관계 매핑 -> n:1, 1:n, 1:1, n:m
+
+------------------------
+
+# Spring MVC
+
+1. Thymleaf form control dev
+2. Message properties dev
+3. Validation dev
+
