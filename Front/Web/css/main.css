@@ -1,0 +1,17 @@
+.main_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 60px 0 0 200px;
+    padding: 20px 0 0 10px;
+    align-content: center;
+}
+.main_item{
+    width: 25%;
+    margin: 0 0 15px 0;
+    padding: 0 10px;
+    align-content: center;
+}
+.main_img{
+    max-width: 100%;
+}

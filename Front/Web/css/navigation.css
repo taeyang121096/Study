@@ -1,0 +1,46 @@
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+.nav_wrapper {
+    min-width: 200px;
+    min-height: 100vh;
+    background-color: #f8f8f8;
+    padding: 80px 0 0 0;
+    list-style: none;
+}
+.nav_wrapper li{
+    display: flex;
+    padding: 10px 16px 10px;
+}
+.nav_wrapper li:hover{
+    background-color: #eaeaea;
+}
+.nav_icon{
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+}
+.nav_name{
+    margin: 0 0 0 8px;
+    font-size: 1.2rem;
+    border: none;
+    background-color: transparent;
+}
+@media screen and (max-width: 800px) {
+    .nav_name{
+        display: none;
+    }
+    .nav_wrapper{
+        min-width: 0;
+    }
+    
+}
+@media screen and (max-width: 400px) {
+    .nav_wrapper{
+        display: none;
+    }
+    
+}
