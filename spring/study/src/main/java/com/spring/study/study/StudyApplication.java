@@ -1,5 +1,6 @@
 package com.spring.study.study;
 
+import com.spring.study.study.user.dao.NUserDao;
 import com.spring.study.study.user.dao.UserDao;
 import com.spring.study.study.user.domain.User;
 import org.springframework.boot.SpringApplication;
@@ -11,7 +12,7 @@ import java.sql.SQLException;
 public class StudyApplication {
 
 	public static void main(String[] args) throws SQLException, ClassNotFoundException {
-		UserDao userDao = new UserDao();
+		UserDao userDao = new NUserDao();
 
 		User user = new User();
 		user.setId("taeyang");
