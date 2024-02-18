@@ -20,3 +20,7 @@
     은행 : id(pk), no, name
     유저 : id, no, user_id, user_pw, name
     계좌 내역 :id, account_no, bank_no, payment, use_date, type
+
+# ERD
+
+![image](https://github.com/taeyang121096/Study/assets/74217059/44566fce-2d20-4d55-a6cb-53ff1635125a)
